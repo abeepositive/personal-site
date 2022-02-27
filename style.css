@@ -14,7 +14,10 @@ body {
 
 .banner {
     text-align: center;
+    background-color: rgb(240, 223, 153);
+    border-radius: 50%;
 }
+
 div.banner img {
     width: 100%;
 }
@@ -24,3 +27,33 @@ div.banner img.profile_photo {
     width: 50%;
 }
 
+.introduction {
+    padding: 3rem 0rem 3rem 0rem;
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+}
+
+.journey {
+    padding: 0rem 0rem 3rem 0rem;
+    background-color: rgb(240, 223, 153);
+    border-radius: 50%;
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+}
+
+.email {
+    padding: 3rem 0rem 3rem 0rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+input#email {
+    font-family: 'Montserrat', sans-serif;
+}
+input#submit {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+}
