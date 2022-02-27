@@ -16,10 +16,17 @@ p {
     padding: 15px;
 }
 
+.banner_container {
+    display: block;
+    text-align: center;
+    margin: 3rem 7rem 0rem 7rem;
+}
+
 .banner {
     text-align: center;
     background-color: rgb(240, 223, 153);
     border-radius: 50%;
+    width: auto;
 }
 
 div.banner img {
@@ -49,7 +56,7 @@ div.banner img.profile_photo {
 
 .video{
     position: relative;
-    width: 100%;
+    overflow: hidden;
     padding-bottom: 56.25%; 
     height: 0;
   }
