@@ -1,4 +1,20 @@
 body {
     background-color: rgb(254, 211, 113);
-
 }
+
+.logo {
+    border-radius: 50%;
+    max-width: 10%;
+    max-height: 10%;
+    padding: 15px;
+}
+
+/* .banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner img {
+    flex-shrink: 4;
+} */
